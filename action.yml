@@ -15,6 +15,9 @@ outputs:
   comment-id:
     description: "ID do comentário incluído"
     value: ${{ steps.comment-action.outputs.comment-id }}
+branding:
+  icon: 'archive'
+  color: 'gray-dark'
 runs:
   using: "composite"
   steps:
